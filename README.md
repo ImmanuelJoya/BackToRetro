@@ -44,22 +44,28 @@ The build process happens in **two stages**:
 
 1. **Clone this repository**
 
-   ```bash
-   git clone https://github.com/<your-username>/freedoom-web.git
-   cd freedoom-web
+```bash
+git clone https://github.com/<your-username>/freedoom-web.git
+cd freedoom-web
+```
 
-   Build the Docker image
-   ```
+2. **Build the Docker image**
 
+```bash
 docker build -t freedoom-web .
+```
 
-Run the container
+**Run the container**
 
+```bash
 docker run -it --rm -p 8080:80 freedoom-web
+```
 
-Open the game in your browser
+**Enjoy the game in your browser**
 
+```bash
 http://localhost:8080
+```
 
 🎮 Controls
 

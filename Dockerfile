@@ -1,4 +1,4 @@
-# -------- Stage 1: build Chocolate Doom (WASM) --------
+# -------- Stage 1: build Chocolate Doom (WASM) -------- 
 #start with the Emscripten SDK image (version 3.1.51), which is a compiler that can build C/C++ code into WebAssembly (.wasm) so it can run in a browser.
 #This is necessary because Doom is originally C code.
 FROM emscripten/emsdk:3.1.51 AS builder
